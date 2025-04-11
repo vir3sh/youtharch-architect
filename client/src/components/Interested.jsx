@@ -6,9 +6,10 @@ const Interested = () => {
       <section className="bg-white py-20 px-6">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 items-center gap-10">
           {/* Left Title */}
+
           <div className="col-span-1 text-left">
             <p
-              className="text-xs text-gray-400 font-semibold mb-2 tracking-widest left-0"
+              className="text-xs text-gray-400 font-semibold mb-2 tracking-widest left-0 "
               style={{
                 padding: "30px",
                 borderBottom: "5px solid rgb(229, 229, 229)",

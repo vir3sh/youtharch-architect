@@ -63,10 +63,10 @@ const OfficeService = () => {
           projects, we bring unparalleled creativity and precision to every
           design.
         </p>
-        <div className="py-12 px-6 bg-white max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-black text-sm">
+        <div className="py-12 px-6 bg-white max-w-5xl mx-auto grid md:grid-rows-3 gap-8 text-black text-sm">
           <div className="flex items-start gap-3">
             <div className="p-2 bg-gray-200 rounded-full">
-              <img src={listicon} alt="icon" className="w-4 h-4" />
+              <img src={listicon} alt="icon" className="w-5 h-4" />
             </div>
             <p>
               <strong>120+</strong> industrial projects (e.g., ULKA Sea Foods,
@@ -92,16 +92,6 @@ const OfficeService = () => {
           </div>
         </div>
 
-        {/* Learn More Button */}
-        {/* <div className="mt-6 flex items-center space-x-3">
-          <button className="flex items-center text-black font-semibold">
-            LEARN MORE
-            <span className="ml-2 p-2 bg-[#a8cc44] ">
-              <ArrowRight size={16} />
-            </span>
-          </button>
-        </div> */}
-        {/* Stats */}
         <div className="mt-10 flex space-x-6">
           <div
             className="p-4 w-[160px] text-center"

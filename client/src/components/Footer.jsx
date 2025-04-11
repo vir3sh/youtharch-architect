@@ -68,10 +68,16 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center mt-6 text-gray-500 text-xs">
         <p>© 2025. All rights reserved.</p>
         <div className="flex space-x-6 mt-2 md:mt-0">
-          <a href="#" className="hover:text-white transition">
+          <a
+            href="https://www.facebook.com/100091684453531/about/?_rdr"
+            className="hover:text-white transition"
+          >
             Facebook
           </a>
-          <a href="#" className="hover:text-white transition">
+          <a
+            href="https://www.instagram.com/youtharch.architects/"
+            className="hover:text-white transition"
+          >
             Instagram
           </a>
         </div>
