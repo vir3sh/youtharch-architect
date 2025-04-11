@@ -66,7 +66,7 @@ const Hero = () => {
                 </span>{" "}
                 {slides[currentIndex].subtitle}
               </h1>
-              <button className="mt-6 px-6 py-3 bg-lime-400 text-black font-bold  hover:bg-lime-500 transition">
+              <button className="mt-6 px-6 py-3 bg-[#a8cc44] text-black font-bold  hover:bg-lime-500 transition">
                 VIEW A PROJECT →
               </button>
             </motion.div>
@@ -127,7 +127,7 @@ const Hero = () => {
                 </span>{" "}
                 {slides[currentIndex].subtitle}
               </h1>
-              <button className="mt-6 px-6 py-3 bg-lime-400 text-black font-bold hover:bg-lime-500 transition flex items-center mx-auto md:mx-0">
+              <button className="mt-6 px-6 py-3 bg-[#a8cc44] text-black font-bold hover:bg-lime-500 transition flex items-center mx-auto md:mx-0">
                 VIEW A PROJECT →
               </button>
             </motion.div>
@@ -135,7 +135,6 @@ const Hero = () => {
         </div>
 
         <div className="w-full md:w-[40%] flex items-center justify-center relative mt-8 md:mt-0">
-        
           <span className="absolute text-8xl md:text-[150px] font-extrabold text-gray-800 opacity-30">
             {slides[currentIndex].id}
           </span>
@@ -161,7 +160,6 @@ const Hero = () => {
                 PREV
               </button>
 
-              {/* Vertical Separator Line */}
               <div className="h-6 w-px bg-gray-400"></div>
 
               <button

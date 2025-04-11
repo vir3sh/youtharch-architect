@@ -41,15 +41,14 @@ const CommunitySection = () => {
       className="relative bg-cover bg-center text-white py-35  md:px-10 "
       style={{ backgroundImage: "url('/your-image-path.jpg')" }}
     >
-  
       <div className="absolute inset-0 bg-black opacity-60"></div>
 
-
       <div className="relative z-10 max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:items-start justify-between">
-
         <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <h2 className="text-4xl sm:text-5xl font-bold">
-            DESIGN WITH <span className="text-lime-400">COMMUNITY</span> IN MIND
+          <h2 className="text-4xl sm:text-5xl font-bold uppercase">
+            We don’t just design
+            <span className="text-lime-400"> capitalize</span> we craft
+            experiences
           </h2>
           <p className="mt-4 text-gray-300 max-w-lg mx-auto lg:mx-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -57,9 +56,8 @@ const CommunitySection = () => {
             ipsum suspendisse ultrices gravida.
           </p>
 
-         
           <div className="mt-6 flex justify-center lg:justify-start">
-            <button className="bg-lime-400 text-black font-semibold px-6 py-3 flex items-center gap-2 hover:bg-lime-500 transition">
+            <button className="bg-[#a8cc44] text-black font-semibold px-6 py-3 flex items-center gap-2 hover:bg-lime-500 transition">
               LEARN MORE
               <span className="text-xl">→</span>
             </button>

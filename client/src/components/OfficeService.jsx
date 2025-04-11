@@ -1,7 +1,8 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
-
-const OfficeHighlight = () => {
+import { FiArrowRight } from "react-icons/fi";
+import listicon from "../assets/icons/11.svg";
+const OfficeService = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto py-16 px-6 md:px-12">
       <div className="relative w-full md:w-1/2">
@@ -44,21 +45,62 @@ const OfficeHighlight = () => {
           <span className="text-black">RENAISSANCE</span>
         </h2>
         <p className="text-gray-600 mt-4 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum
-          suspendisse ultrices gravida.
+          With over 14 years of experience in the architecture and design
+          industry, our team has consistently delivered innovative, functional,
+          and sustainable solutions across diverse sectors. As leading
+          industrial architects and interior designers, we specialize in
+          crafting efficient industrial facilities in Navi Mumbai, modern
+          corporate offices, and stunning residential spaces. Our expertise
+          ensures that every project is not just aesthetically striking but also
+          serves a meaningful purpose
         </p>
+        <p className="text-gray-600 mt-4 leading-relaxed">
+          Our success is built on close collaboration with clients,
+          understanding their unique needs, and translating their visions into
+          reality. With 120+ completed projects, we have earned a reputation as
+          one of the top architecture firms in Mumbai. Whether you need expert
+          architects in Mumbai for industrial, commercial, or residential
+          projects, we bring unparalleled creativity and precision to every
+          design.
+        </p>
+        <div className="py-12 px-6 bg-white max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-black text-sm">
+          <div className="flex items-start gap-3">
+            <div className="p-2 bg-gray-200 rounded-full">
+              <img src={listicon} alt="icon" className="w-4 h-4" />
+            </div>
+            <p>
+              <strong>120+</strong> industrial projects (e.g., ULKA Sea Foods,
+              Syndicate Machines).
+            </p>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="p-2 bg-gray-200 rounded-full">
+              <img src={listicon} alt="icon" className="w-4 h-4" />
+            </div>
+            <p>
+              <strong>30+</strong> commercial interiors (clinics, offices,
+              salons).
+            </p>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="p-2 bg-gray-200 rounded-full">
+              <img src={listicon} alt="icon" className="w-4 h-4" />
+            </div>
+            <p>
+              <strong>50+</strong> residential homes and bungalows.
+            </p>
+          </div>
+        </div>
 
         {/* Learn More Button */}
-        <div className="mt-6 flex items-center space-x-3">
+        {/* <div className="mt-6 flex items-center space-x-3">
           <button className="flex items-center text-black font-semibold">
             LEARN MORE
             <span className="ml-2 p-2 bg-[#a8cc44] ">
               <ArrowRight size={16} />
             </span>
           </button>
-        </div>
-
+        </div> */}
         {/* Stats */}
         <div className="mt-10 flex space-x-6">
           <div
@@ -89,4 +131,4 @@ const OfficeHighlight = () => {
   );
 };
 
-export default React.memo(OfficeHighlight);
+export default React.memo(OfficeService);

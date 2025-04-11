@@ -76,7 +76,7 @@ const Scroll = () => {
   return (
     <div
       ref={scrollRef}
-      className="overflow-x-auto bg-lime-400 whitespace-nowrap px-4 py-6 cursor-grab select-none hide-scrollbar"
+      className="overflow-x-auto bg-[#a8cc44] whitespace-nowrap px-4 py-6 cursor-grab select-none hide-scrollbar"
       onMouseDown={handleDragStart}
       onMouseMove={handleDragMove}
       onMouseUp={handleDragEnd}

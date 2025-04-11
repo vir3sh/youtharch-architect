@@ -4,3 +4,53 @@
 body {
   font-family: "Sora", sans-serif;
 }
+/* Add to global CSS */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.mil-suptitle {
+  position: relative;
+  display: inline-block;
+}
+
+.mil-suptitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 60px;
+  background-color: transparent;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 1px,
+      rgba(0, 0, 0, 0.1) 1px,
+      rgba(0, 0, 0, 0.1) 3px
+    )
+    3;
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+
+.mil-suptitle.mil-light::after {
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-image: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 1px,
+      rgba(255, 255, 255, 0.1) 1px,
+      rgba(255, 255, 255, 0.1) 3px
+    )
+    3;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
